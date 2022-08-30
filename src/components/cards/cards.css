@@ -1,0 +1,48 @@
+.card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.journal-image {
+  height: 268px;
+  width: 226px;
+}
+
+.card-content {
+  display: flex;
+  padding: 40px 0px;
+  width: 60%;
+}
+
+.journal-description {
+  padding: 20px 40px;
+}
+
+.location-content {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+}
+.location-icon,
+.location-content span {
+  padding: 0px 5px;
+}
+
+.location-content a {
+  color: #918e9b;
+}
+.location-name {
+  letter-spacing: 3px;
+}
+
+.journal-title {
+  font-weight: 700;
+  padding: 10px 0px;
+}
+
+.desc-date {
+  font-weight: 700;
+  padding: 15px 0px;
+}
