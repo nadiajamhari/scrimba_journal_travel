@@ -16,13 +16,8 @@
   width: 60%;
 }
 
-.journal-description {
-  padding: 20px 40px;
-}
-
 .location-content {
   display: flex;
-  align-items: center;
   padding: 10px 0px;
 }
 .location-icon,
@@ -45,4 +40,23 @@
 .desc-date {
   font-weight: 700;
   padding: 15px 0px;
+}
+@media (max-width: 768px) {
+  .card-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .location-content {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 769px) {
+  .journal-description {
+    padding: 20px 40px;
+  }
+
+  .location-content {
+    align-items: center;
+  }
 }
